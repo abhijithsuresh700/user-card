@@ -1,0 +1,32 @@
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: black;
+  padding: 20px;
+}
+
+.userCard {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #080808;
+  color: #ccc;
+  width: 28%;
+}
+
+.address,
+.company {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  color: #ccc;
+}
+
+.geo {
+  margin: 5px;
+}
+.titleName{
+  color: #f9f9f9;
+}
